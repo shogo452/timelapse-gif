@@ -6,23 +6,6 @@ interface Env {
   ASSETS: { fetch: (request: Request) => Promise<Response> };
 }
 
-const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
-const RATE_LIMIT_MAX = 5;
-const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000;
-
-function isRateLimited(ip: string): boolean {
-  const now = Date.now();
-  const entry = rateLimitMap.get(ip);
-
-  if (!entry || now > entry.resetAt) {
-    rateLimitMap.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
-    return false;
-  }
-
-  entry.count++;
-  return entry.count > RATE_LIMIT_MAX;
-}
-
 const typeLabels: Record<string, string> = {
   bug: "Bug Report",
   feature: "Feature Request",
@@ -70,18 +53,6 @@ async function handleContactPost(
     return Response.json(
       { error: "Forbidden: origin mismatch" },
       { status: 403 }
-    );
-  }
-
-  // Rate limiting by IP
-  const ip =
-    request.headers.get("CF-Connecting-IP") ||
-    request.headers.get("X-Forwarded-For") ||
-    "unknown";
-  if (isRateLimited(ip)) {
-    return Response.json(
-      { error: "Too many requests. Please try again later." },
-      { status: 429 }
     );
   }
 
@@ -186,4 +157,4 @@ export default {
     const response = await env.ASSETS.fetch(request);
     return securityHeaders(response);
   },
-} satisfies ExportedHandler<Env>;
+};
