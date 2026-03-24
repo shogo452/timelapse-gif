@@ -37,7 +37,7 @@ jobs:
         working-directory: web
 
       - name: Build
-        run: npm run build
+        run: npx vite build
         working-directory: web
 
       - name: Deploy Workers preview
