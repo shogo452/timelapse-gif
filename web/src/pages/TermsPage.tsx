@@ -14,7 +14,7 @@ export function TermsPage() {
       <Helmet>
         <title>Terms of Service – timelapse-gif</title>
         <meta name="description" content="Terms of service for timelapse-gif, a free browser-based timelapse GIF generator." />
-        <link rel="canonical" href="https://timelapse-gif.pages.dev/terms" />
+        <link rel="canonical" href="https://timelapse-gif.shogo452.com/terms" />
       </Helmet>
       <h2 className="text-2xl font-bold text-[#1A1A1A] mb-8">{t("terms.title")}</h2>
       <div className="space-y-6 text-sm leading-relaxed text-[#6B7280]">

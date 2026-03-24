@@ -14,7 +14,7 @@ export function FaqPage() {
       <Helmet>
         <title>FAQ – timelapse-gif</title>
         <meta name="description" content="Frequently asked questions about timelapse-gif: supported formats, privacy, GIF customization, and more." />
-        <link rel="canonical" href="https://timelapse-gif.pages.dev/faq" />
+        <link rel="canonical" href="https://timelapse-gif.shogo452.com/faq" />
       </Helmet>
       <h2 className="text-2xl font-bold text-[#1A1A1A] mb-8">{t("faq.title")}</h2>
       <div className="space-y-6">

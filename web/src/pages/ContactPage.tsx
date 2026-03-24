@@ -102,7 +102,7 @@ export function ContactPage() {
       <Helmet>
         <title>Contact – timelapse-gif</title>
         <meta name="description" content="Send feedback, report bugs, or request features for timelapse-gif." />
-        <link rel="canonical" href="https://timelapse-gif.pages.dev/contact" />
+        <link rel="canonical" href="https://timelapse-gif.shogo452.com/contact" />
       </Helmet>
       <h2 className="text-2xl font-bold text-[#1A1A1A] mb-2">
         {t("contact.title")}

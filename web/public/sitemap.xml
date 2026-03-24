@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://timelapse-gif.pages.dev/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://timelapse-gif.pages.dev/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://timelapse-gif.pages.dev/"/>
+    <loc>https://timelapse-gif.shogo452.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timelapse-gif.shogo452.com/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timelapse-gif.shogo452.com/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://timelapse-gif.pages.dev/faq</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://timelapse-gif.pages.dev/faq"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://timelapse-gif.pages.dev/faq"/>
+    <loc>https://timelapse-gif.shogo452.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://timelapse-gif.shogo452.com/faq"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://timelapse-gif.shogo452.com/faq"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://timelapse-gif.pages.dev/contact</loc>
+    <loc>https://timelapse-gif.shogo452.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://timelapse-gif.pages.dev/privacy</loc>
+    <loc>https://timelapse-gif.shogo452.com/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://timelapse-gif.pages.dev/terms</loc>
+    <loc>https://timelapse-gif.shogo452.com/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
