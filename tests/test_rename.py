@@ -54,8 +54,8 @@ def test_build_rename_plan_basic(tmp_path: Path) -> None:
 
     plan = build_rename_plan(tmp_path, prefix=None)
     new_names = [p[1].name for p in plan]
-    assert "2026-01-10.jpg" in new_names
-    assert "2026-01-11.jpg" in new_names
+    assert "2026-01-10-12-00.jpg" in new_names
+    assert "2026-01-11-12-00.jpg" in new_names
 
 
 def test_build_rename_plan_with_prefix(dated_image_dir: Path) -> None:
@@ -117,7 +117,7 @@ def test_execute_rename_no_changes(tmp_path: Path) -> None:
     from datetime import datetime
 
     # Create a file whose name already matches its mtime-based date
-    path = tmp_path / "2026-03-01.jpg"
+    path = tmp_path / "2026-03-01-12-00.jpg"
     img = Image.new("RGB", (10, 10))
     img.save(path, "JPEG")
     ts = datetime(2026, 3, 1, 12, 0, 0).timestamp()
