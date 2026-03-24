@@ -22,7 +22,7 @@ export function HomePage() {
       <Helmet>
         <title>timelapse-gif – Create Timelapse GIFs from Image Sequences</title>
         <meta name="description" content="Free browser-based tool to create timelapse GIF animations from multiple images. No upload to server – all processing runs locally in your browser." />
-        <link rel="canonical" href="https://timelapse-gif.pages.dev" />
+        <link rel="canonical" href="https://timelapse-gif.shogo452.com" />
       </Helmet>
 
       {/* Step Guide */}
