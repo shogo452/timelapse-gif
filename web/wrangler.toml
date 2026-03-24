@@ -1,4 +1,4 @@
 name = "timelapse-gif"
 compatibility_date = "2026-02-19"
 compatibility_flags = ["nodejs_compat"]
-assets = { binding = "ASSETS" }
+assets = { directory = "./dist" }
