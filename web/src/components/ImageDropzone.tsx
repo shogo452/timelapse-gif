@@ -91,11 +91,11 @@ export function ImageDropzone({ addFiles, addZip, isLoading }: ImageDropzoneProp
         </p>
       </div>
 
-      <div className="flex gap-2.5">
+      <div className="flex gap-2.5 flex-wrap justify-center">
         <button
           onClick={() => folderRef.current?.click()}
           disabled={isLoading}
-          className="flex items-center gap-1.5 bg-[#22C55E] text-white text-[13px] font-semibold px-4 py-2 rounded-full hover:bg-[#16A34A] transition-colors disabled:opacity-50"
+          className="flex items-center gap-1.5 bg-[#22C55E] text-white text-[13px] font-semibold px-4 py-2 rounded-full hover:bg-[#16A34A] transition-colors disabled:opacity-50 whitespace-nowrap"
         >
           <Folder className="h-4 w-4" />
           {t("dropzone.folder")}
@@ -103,7 +103,7 @@ export function ImageDropzone({ addFiles, addZip, isLoading }: ImageDropzoneProp
         <button
           onClick={() => filesRef.current?.click()}
           disabled={isLoading}
-          className="flex items-center gap-1.5 bg-white text-[#6B7280] text-[13px] font-semibold px-4 py-2 rounded-full border border-[#D1D5DB] hover:border-[#9CA3AF] transition-colors disabled:opacity-50"
+          className="flex items-center gap-1.5 bg-white text-[#6B7280] text-[13px] font-semibold px-4 py-2 rounded-full border border-[#D1D5DB] hover:border-[#9CA3AF] transition-colors disabled:opacity-50 whitespace-nowrap"
         >
           <Image className="h-4 w-4" />
           {t("dropzone.images")}
@@ -111,7 +111,7 @@ export function ImageDropzone({ addFiles, addZip, isLoading }: ImageDropzoneProp
         <button
           onClick={() => zipRef.current?.click()}
           disabled={isLoading}
-          className="flex items-center gap-1.5 bg-white text-[#6B7280] text-[13px] font-semibold px-4 py-2 rounded-full border border-[#D1D5DB] hover:border-[#9CA3AF] transition-colors disabled:opacity-50"
+          className="flex items-center gap-1.5 bg-white text-[#6B7280] text-[13px] font-semibold px-4 py-2 rounded-full border border-[#D1D5DB] hover:border-[#9CA3AF] transition-colors disabled:opacity-50 whitespace-nowrap"
         >
           <FileArchive className="h-4 w-4" />
           {t("dropzone.zip")}
