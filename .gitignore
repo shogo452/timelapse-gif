@@ -70,3 +70,6 @@ htmlcov/
 *.jpg
 *.png
 *.gif
+
+.dev.vars*
+!.dev.vars.example
