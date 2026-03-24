@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PenLine, Film } from "lucide-react";
@@ -18,6 +19,12 @@ export function HomePage() {
 
   return (
     <main className="mx-auto max-w-5xl px-10 pb-10 space-y-6">
+      <Helmet>
+        <title>timelapse-gif – Create Timelapse GIFs from Image Sequences</title>
+        <meta name="description" content="Free browser-based tool to create timelapse GIF animations from multiple images. No upload to server – all processing runs locally in your browser." />
+        <link rel="canonical" href="https://timelapse-gif.pages.dev" />
+      </Helmet>
+
       {/* Step Guide */}
       <StepGuide />
 

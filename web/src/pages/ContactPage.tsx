@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -98,6 +99,11 @@ export function ContactPage() {
 
   return (
     <main className="mx-auto max-w-2xl px-6 py-10">
+      <Helmet>
+        <title>Contact – timelapse-gif</title>
+        <meta name="description" content="Send feedback, report bugs, or request features for timelapse-gif." />
+        <link rel="canonical" href="https://timelapse-gif.pages.dev/contact" />
+      </Helmet>
       <h2 className="text-2xl font-bold text-[#1A1A1A] mb-2">
         {t("contact.title")}
       </h2>
