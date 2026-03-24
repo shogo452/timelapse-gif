@@ -1,0 +1,164 @@
+{
+  "app": {
+    "title": "timelapse-gif Web",
+    "pageTitle": "timelapse-gif – Create Timelapse GIFs from Image Sequences"
+  },
+  "dropzone": {
+    "title": "Upload Images",
+    "description": "Drag & drop or click to select",
+    "folder": "Folder",
+    "images": "Images",
+    "zip": "ZIP"
+  },
+  "imageList": {
+    "title": "Images",
+    "count": "{{count}} images",
+    "rotate": "Rotate",
+    "remove": "Remove",
+    "empty": "No images uploaded",
+    "dragHint": "Drag to reorder"
+  },
+  "tabs": {
+    "rename": "Rename",
+    "generate": "Generate"
+  },
+  "rename": {
+    "prefix": "Prefix",
+    "prefixPlaceholder": "e.g. tomato",
+    "preview": "Preview",
+    "original": "Original",
+    "newName": "New Name",
+    "download": "Download ZIP",
+    "downloading": "Creating ZIP...",
+    "noImages": "Upload images first"
+  },
+  "generate": {
+    "width": "Width",
+    "duration": "Duration",
+    "dateOverlay": "Date Overlay",
+    "overlayFormat": "Format",
+    "format": {
+      "date": "Date",
+      "time": "Date+Time",
+      "hour": "Time"
+    },
+    "fontSize": "Font Size",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "preview": "Preview",
+    "generate": "Generate GIF",
+    "generating": "Generating...",
+    "frames": "{{count}} frames",
+    "fileSize": "{{size}}",
+    "perFrame": "{{ms}}ms/frame",
+    "download": "Download GIF",
+    "noImages": "Upload images first"
+  },
+  "steps": {
+    "step1": "Upload Images",
+    "step1Desc": "Drag & drop photos or add via folder / ZIP",
+    "step2": "Adjust Settings",
+    "step2Desc": "Configure size, speed, date overlay, and more",
+    "step3": "Generate GIF",
+    "step3Desc": "Create and download your timelapse GIF in one click"
+  },
+  "progress": {
+    "processing": "Processing frames...",
+    "encoding": "Encoding GIF..."
+  },
+  "footer": {
+    "faq": "FAQ",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is timelapse-gif?",
+        "a": "It's a web tool that lets you easily create timelapse GIFs from multiple images. Everything from uploading images to generating and downloading the GIF happens right in your browser."
+      },
+      {
+        "q": "Are my uploaded images stored on a server?",
+        "a": "No. All image processing happens entirely in your browser. Your uploaded images are never sent to any server."
+      },
+      {
+        "q": "What image formats are supported?",
+        "a": "Major image formats such as JPEG and PNG are supported. You can also upload multiple images at once via ZIP files or folders."
+      },
+      {
+        "q": "Can I customize the GIF settings?",
+        "a": "Yes. You can adjust the width, duration per frame, date overlay visibility, font size, and more."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "heading": "Data Collection",
+        "body": "This service does not send or store any personal data on our servers, including images you upload. All image processing happens entirely within your browser."
+      },
+      {
+        "heading": "Cookies & Local Storage",
+        "body": "We use browser local storage to save your language preference. We do not use any tracking cookies."
+      },
+      {
+        "heading": "Third-Party Sharing",
+        "body": "This service does not share any user information with third parties."
+      },
+      {
+        "heading": "Contact",
+        "body": "If you have any questions about our privacy practices, please reach out via the Contact page."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "sections": [
+      {
+        "heading": "Service Overview",
+        "body": "This service provides a free web tool for creating timelapse GIFs from images."
+      },
+      {
+        "heading": "Disclaimer",
+        "body": "This service is provided \"as is.\" We make no guarantees regarding the quality of generated GIFs or the results of their use."
+      },
+      {
+        "heading": "Prohibited Activities",
+        "body": "Processing illegal content, unauthorized access to the service, and any other activities that violate applicable laws are prohibited."
+      },
+      {
+        "heading": "Changes to Terms",
+        "body": "These terms may be updated without prior notice. Continued use of the service after changes constitutes acceptance of the updated terms."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Thank you for using timelapse-gif! Your feedback helps us improve the service.",
+    "feedbackType": "Feedback Type",
+    "feedbackTypePlaceholder": "Select a type",
+    "types": {
+      "bug": "Bug Report",
+      "feature": "Feature Request",
+      "question": "Question",
+      "other": "Other"
+    },
+    "details": "Details",
+    "detailsPlaceholder": "Please describe your feedback in detail.",
+    "screenshots": "Screenshots (Optional)",
+    "screenshotsHint": "You can attach image files (up to 3 files, 5MB each)",
+    "addScreenshot": "Add Screenshot",
+    "browserOs": "Browser & OS (Optional)",
+    "browserOsPlaceholder": "Example: Chrome 120 on macOS 14",
+    "email": "Email (Optional)",
+    "emailHint": "If you'd like a response, please provide your email address.",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "successTitle": "Thank You!",
+    "successDescription": "Your feedback has been sent successfully. We'll review it and get back to you if needed.",
+    "sendAnother": "Send Another"
+  }
+}

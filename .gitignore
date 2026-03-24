@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# uv
+uv.lock
+.python-version
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.secret
+secrets.yaml
+secrets.yml
+secrets.json
+credentials.json
+service-account*.json
+.dev.vars
+
+# Docs (internal)
+docs/
+
+# Cloudflare Wrangler
+.wrangler/
+
+# Pencil
+*.pen
+
+# Development / local
+.dev/
+*.local
+*.log
+tmp/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Test Image
+*.jpg
+*.png
+*.gif

@@ -1,0 +1,164 @@
+{
+  "app": {
+    "title": "timelapse-gif Web",
+    "pageTitle": "timelapse-gif – 複数の画像からタイムラプスGIFを作成"
+  },
+  "dropzone": {
+    "title": "画像をアップロード",
+    "description": "ドラッグ&ドロップまたはクリックして選択",
+    "folder": "フォルダ",
+    "images": "画像",
+    "zip": "ZIP"
+  },
+  "imageList": {
+    "title": "画像一覧",
+    "count": "{{count}} 枚",
+    "rotate": "回転",
+    "remove": "削除",
+    "empty": "画像がアップロードされていません",
+    "dragHint": "ドラッグで並び替え"
+  },
+  "tabs": {
+    "rename": "リネーム",
+    "generate": "GIF生成"
+  },
+  "rename": {
+    "prefix": "プレフィックス",
+    "prefixPlaceholder": "例: tomato",
+    "preview": "プレビュー",
+    "original": "元ファイル名",
+    "newName": "新ファイル名",
+    "download": "ZIPダウンロード",
+    "downloading": "ZIP作成中...",
+    "noImages": "先に画像をアップロードしてください"
+  },
+  "generate": {
+    "width": "幅",
+    "duration": "表示時間",
+    "dateOverlay": "日付オーバーレイ",
+    "overlayFormat": "表示形式",
+    "format": {
+      "date": "日付",
+      "time": "日付+時刻",
+      "hour": "時刻"
+    },
+    "fontSize": "フォントサイズ",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "preview": "プレビュー",
+    "generate": "GIF生成",
+    "generating": "生成中...",
+    "frames": "{{count}} フレーム",
+    "fileSize": "{{size}}",
+    "perFrame": "{{ms}}ms/フレーム",
+    "download": "GIFダウンロード",
+    "noImages": "先に画像をアップロードしてください"
+  },
+  "steps": {
+    "step1": "画像をアップロード",
+    "step1Desc": "写真をドラッグ&ドロップまたはフォルダ・ZIPで追加",
+    "step2": "設定を調整",
+    "step2Desc": "サイズ・速度・日付オーバーレイなどを設定",
+    "step3": "GIFを生成",
+    "step3Desc": "ワンクリックでタイムラプスGIFを作成・ダウンロード"
+  },
+  "progress": {
+    "processing": "フレーム処理中...",
+    "encoding": "GIFエンコード中..."
+  },
+  "footer": {
+    "faq": "FAQ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ"
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "timelapse-gif とは何ですか？",
+        "a": "複数の画像からタイムラプスGIFを簡単に作成できるWebツールです。画像のアップロードからGIF生成・ダウンロードまで、すべてブラウザ上で完結します。"
+      },
+      {
+        "q": "アップロードした画像はサーバーに保存されますか？",
+        "a": "いいえ。すべての画像処理はブラウザ内で行われます。アップロードされた画像がサーバーに送信されることはありません。"
+      },
+      {
+        "q": "対応している画像形式は？",
+        "a": "JPEG、PNG など主要な画像形式に対応しています。ZIPファイルやフォルダからの一括アップロードも可能です。"
+      },
+      {
+        "q": "GIFの設定はカスタマイズできますか？",
+        "a": "はい。幅、フレームごとの表示時間、日付オーバーレイの有無やフォントサイズなどを自由に調整できます。"
+      }
+    ]
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "sections": [
+      {
+        "heading": "データの収集について",
+        "body": "本サービスは、ユーザーがアップロードした画像を含め、個人データをサーバーに送信・保存することはありません。すべての画像処理はお使いのブラウザ内で完結します。"
+      },
+      {
+        "heading": "Cookie・ローカルストレージ",
+        "body": "言語設定の保持のため、ブラウザのローカルストレージを使用します。トラッキング用のCookieは使用していません。"
+      },
+      {
+        "heading": "第三者への提供",
+        "body": "本サービスはユーザーの個人情報を第三者に提供することはありません。"
+      },
+      {
+        "heading": "お問い合わせ",
+        "body": "プライバシーに関するご質問は、お問い合わせページよりご連絡ください。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "利用規約",
+    "sections": [
+      {
+        "heading": "サービスの概要",
+        "body": "本サービスは、画像からタイムラプスGIFを作成するためのWebツールを無料で提供します。"
+      },
+      {
+        "heading": "免責事項",
+        "body": "本サービスは「現状有姿」で提供されます。生成されたGIFの品質や利用結果について、一切の保証を行いません。"
+      },
+      {
+        "heading": "禁止事項",
+        "body": "違法なコンテンツの処理、サービスへの不正アクセス、その他法令に反する行為を禁止します。"
+      },
+      {
+        "heading": "規約の変更",
+        "body": "本規約は予告なく変更される場合があります。変更後も引き続き本サービスを利用された場合、変更後の規約に同意したものとみなします。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "ご利用いただきありがとうございます。フィードバックはサービス改善に役立てさせていただきます。",
+    "feedbackType": "フィードバックの種類",
+    "feedbackTypePlaceholder": "種類を選択",
+    "types": {
+      "bug": "バグ報告",
+      "feature": "機能リクエスト",
+      "question": "質問",
+      "other": "その他"
+    },
+    "details": "詳細",
+    "detailsPlaceholder": "フィードバックの詳細をご記入ください。",
+    "screenshots": "スクリーンショット（任意）",
+    "screenshotsHint": "画像ファイルを添付できます（最大3ファイル、各5MBまで）",
+    "addScreenshot": "画像を追加",
+    "browserOs": "ブラウザ・OS（任意）",
+    "browserOsPlaceholder": "例: Chrome 120 / macOS 14",
+    "email": "メールアドレス（任意）",
+    "emailHint": "返信をご希望の場合はメールアドレスをご入力ください。",
+    "submit": "送信",
+    "submitting": "送信中...",
+    "successTitle": "送信完了",
+    "successDescription": "お問い合わせいただきありがとうございます。内容を確認のうえ、必要に応じてご連絡いたします。",
+    "sendAnother": "別のフィードバックを送信"
+  }
+}

@@ -1,0 +1,57 @@
+[project]
+name = "timelapse-gif"
+dynamic = ["version"]
+description = "Generate timelapse GIFs from image sequences"
+requires-python = ">=3.13"
+license = "MIT"
+authors = [{ name = "shogo452" }]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "click>=8.1.8",
+    "pillow>=11.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/shogo452/timelapse-gif"
+Repository = "https://github.com/shogo452/timelapse-gif"
+Issues = "https://github.com/shogo452/timelapse-gif/issues"
+
+[project.scripts]
+timelapse-gif = "timelapse_gif.cli:cli"
+
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/timelapse_gif/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/timelapse_gif"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=6.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["timelapse_gif"]
+
+[tool.coverage.report]
+fail_under = 80
+
+[tool.uv]
+publish-url = "https://upload.pypi.org/legacy/"
