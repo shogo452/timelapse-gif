@@ -69,4 +69,5 @@ htmlcov/
 # Test Image
 *.jpg
 *.png
+!web/public/og-image.png
 *.gif
