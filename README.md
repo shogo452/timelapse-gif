@@ -1,5 +1,10 @@
 # timelapse-gif
 
+[![CI](https://github.com/shogo452/timelapse-gif/actions/workflows/ci.yml/badge.svg)](https://github.com/shogo452/timelapse-gif/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/timelapse-gif)](https://pypi.org/project/timelapse-gif/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/shogo452/timelapse-gif/blob/main/LICENSE)
+[![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/)
+
 A CLI tool that generates timelapse GIF images from image sequences.
 
 ## Features

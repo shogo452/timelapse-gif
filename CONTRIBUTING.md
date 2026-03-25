@@ -4,21 +4,30 @@ Thank you for your interest in contributing to timelapse-gif!
 
 ## Development Setup
 
+1. Fork the repository on GitHub
+2. Clone your fork:
+
 ```bash
-git clone https://github.com/shogo452/timelapse-gif.git
+git clone https://github.com/<your-username>/timelapse-gif.git
 cd timelapse-gif
 uv sync
 ```
 
+3. Add the upstream remote:
+
+```bash
+git remote add upstream https://github.com/shogo452/timelapse-gif.git
+```
+
 ## Development Workflow
 
-1. Fork the repository
+1. Sync your fork with upstream (`git pull upstream main`)
 2. Create a feature branch (`git checkout -b feature/my-feature`)
 3. Make your changes
 4. Run tests to make sure everything passes
 5. Commit your changes (`git commit -m 'Add my feature'`)
-6. Push to the branch (`git push origin feature/my-feature`)
-7. Open a Pull Request
+6. Push to your fork (`git push origin feature/my-feature`)
+7. Open a Pull Request from your fork to the upstream repository
 
 ## Running Tests
 
