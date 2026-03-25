@@ -1,5 +1,9 @@
 # timelapse-gif
 
+<p align="center">
+  <img src="web/public/og-image.png" alt="timelapse-gif" width="640">
+</p>
+
 [![CI](https://github.com/shogo452/timelapse-gif/actions/workflows/ci.yml/badge.svg)](https://github.com/shogo452/timelapse-gif/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/timelapse-gif)](https://pypi.org/project/timelapse-gif/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/shogo452/timelapse-gif/blob/main/LICENSE)
