@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2026-03-25
+
+### Changed
+
+- Add OG image as README header
+
 ## [0.1.0] - 2026-03-25
 
 ### Added
@@ -19,4 +25,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - CI workflow for automated testing
 - OSS community files (LICENSE, CONTRIBUTING, CODE_OF_CONDUCT, SECURITY)
 
+[0.2.0]: https://github.com/shogo452/timelapse-gif/releases/tag/v0.2.0
 [0.1.0]: https://github.com/shogo452/timelapse-gif/releases/tag/v0.1.0
