@@ -22,7 +22,7 @@ jobs:
 
       - name: Check version consistency
         run: |
-          pkg_version=$(uv run python -c "from grow_timelapse import __version__; print(__version__)")
+          pkg_version=$(uv run python -c "from timelapse_gif import __version__; print(__version__)")
           tag_version="${{ steps.tag.outputs.version }}"
           if [ "$pkg_version" != "$tag_version" ]; then
             echo "::error::Version mismatch: __init__.py=$pkg_version, tag=$tag_version"
