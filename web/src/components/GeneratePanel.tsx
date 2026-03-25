@@ -188,8 +188,16 @@ export function GeneratePanel({ images }: GeneratePanelProps) {
             {t("generate.preview")}
           </h3>
 
-          {/* Frame Preview */}
-          <FramePreview images={images} settings={settings} />
+          {/* Frame Preview / GIF Animation */}
+          {gifResult ? (
+            <img
+              src={gifResult.url}
+              alt="Generated timelapse GIF"
+              className="w-full rounded-xl bg-[#E5E7EB]"
+            />
+          ) : (
+            <FramePreview images={images} settings={settings} />
+          )}
 
           {/* GIF Result */}
           {gifResult && (

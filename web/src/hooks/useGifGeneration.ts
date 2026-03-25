@@ -25,6 +25,7 @@ export function useGifGeneration(images: ImageFile[]) {
       saveGifSettings(next);
       return next;
     });
+    setGifResult(null);
   }, []);
 
   const generateGif = useCallback(async () => {
