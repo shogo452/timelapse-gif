@@ -1,7 +1,7 @@
 # timelapse-gif
 
 <p align="center">
-  <img src="web/public/og-image.png" alt="timelapse-gif" width="640">
+  <img src="https://raw.githubusercontent.com/shogo452/timelapse-gif/main/web/public/og-image.png" alt="timelapse-gif" width="640">
 </p>
 
 [![CI](https://github.com/shogo452/timelapse-gif/actions/workflows/ci.yml/badge.svg)](https://github.com/shogo452/timelapse-gif/actions/workflows/ci.yml)
