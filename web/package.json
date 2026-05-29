@@ -17,7 +17,7 @@
     "@tailwindcss/vite": "^4.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "exifreader": "^4.36.1",
+    "exifreader": "^4.39.0",
     "file-saver": "^2.0.5",
     "i18next": "^25.8.11",
     "jszip": "^3.10.1",
